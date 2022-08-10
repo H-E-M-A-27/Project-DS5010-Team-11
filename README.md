@@ -31,9 +31,9 @@ This step can be don by calling the method **euclidean_distance()** which return
   <img width="230" height="100" src="https://www.delftstack.com/img/Math/euclidean%20distance.png?ezimgfmt=rs:350x121/rscb5/ng:webp/ngcb5">
 
 where,<br>
-x , y	=	two points in Euclidean n-space <br>
-x<sub>i</sub> , y<sub>i</sub>	=	Euclidean vectors, starting from the origin of the space (initial point)<br>
-n	=	n-space 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x , y	=	two points in Euclidean n-space <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x<sub>i</sub> , y<sub>i</sub>	=	Euclidean vectors, starting from the origin of the space (initial point)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n	=	n-space 
 </p>
 
 Then the **kmeans_assignment()** method has to be called for allocation of each data point to its nearest centroid based on the distances, and returns a list of each data point's closest centroid.
@@ -44,7 +44,23 @@ Centroid re-calculation is done using **recalc_centroids()** method that takes t
 
 ## Getting Started
 The package that implements Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
-It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"** which consists of the unit tests of the **"kmeans_module"** module. The **"kmeans_module"** module has a class named **"K_means"** that consists of all the methods. <br>
+It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"** which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
+
+There are different syntax for importing and using the package's methods, some of them include,<br><br>
+``` from package_name.module_name.class_name import method_name ``` <br>or<br> ``` import package_name.module_name.class_name.method_name```
+
+## Imports
+In order to use the package the following libraries must be imported. <br>
+```
+import numpy as np
+import pandas as pd 
+from kneed import KneeLocator
+```
+
+
+
+
+
 
 
 
