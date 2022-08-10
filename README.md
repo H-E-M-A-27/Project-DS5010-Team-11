@@ -46,8 +46,15 @@ Centroid re-calculation is done using **```recalc_centroids()```** method that t
 The package that implements Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"** which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
-There are different syntax for importing and using the package's methods, some of them include,<br><br>
-``` from package_name.module_name.class_name import method_name ``` <br>or<br> ``` import package_name.module_name.class_name.method_name```
+There are different syntax for importing and using the package's class, some of them include,<br><br>
+``` from package_name.module_name import class_name ``` <br>or<br> ``` import package_name.module_name.class_name```<br>
+
+Now form the class if one wants implement the class's method, ``` class_name.method_name``` <br>, or<br>
+To import the method directly, ```from package_name.module_name.class_name import method_name```
+<br><br>
+For example inside the package **"KMeans_Package"**, module **"kmeans_module"**, class **"K_means"**, you want to import a method **inertia()**<br>
+can be written as: ```from KMeans_Package.kmeans_module.K_means import inertia```.
+
 
 ## Imports
 In order to use the package the following libraries must be imported. <br>
