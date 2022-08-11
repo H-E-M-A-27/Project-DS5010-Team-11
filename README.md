@@ -86,7 +86,7 @@ Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 After the execution is done, one can use some visualization tools like **Matplotlib** to plot a graph that contains all the clusters assigned to each data points with their centroids.<br>
 Example plot:
 <p align="center">
-  <img width="400" height="310" src="https://www.jcchouinard.com/kmeans/">
+  <img width="400" height="310" src="https://www.jcchouinard.com/wp-content/uploads/2021/10/image-54.png">
 </p>
 
 Completed!!
