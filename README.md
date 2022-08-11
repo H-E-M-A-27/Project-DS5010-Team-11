@@ -42,11 +42,21 @@ Then the **```kmeans_assignment()```** method has to be called for the allocatio
 Centroid re-calculation is done using **```recalc_centroids()```** method that takes the centroids previously assigned to the data points and the data set as input. It finds the average of all the data points of each centroid and moves the centroid to that average. This method returns re-calculated/new centroids. 
 
 ## Getting Started
+#### Format of the Data set:
+For using the package, one should import the data set in **.csv** format as a DataFrame using pandas. <br>
+Example: 
+``` 
+import pandas as pd
+df = pd.DataFrame()
+df=pd.read_csv("Dataset_name.csv")
+```
+Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.<br><br>
+#### Using the package:
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
 To import the package, you can use: ```import KMeans_Package```.<br><br> 
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
-There are different syntax for importing and using the package's class, some of them include, <br><br>
+Few common syntax for importing and using the package's class, <br><br>
 ``` from package_name.module_name import class_name ``` <br> or<br> ``` import package_name.module_name.class_name```<br>
 
 Now form the class if one wants implement the class's method, ``` class_name.method_name``` <br> or<br>
@@ -68,17 +78,6 @@ from kneed import KneeLocator
 2. Import all the required libraries as mentioned.
 3. Call the **```inertia()```** method, which calculates the optimal number of clusters and returns the value.
 4. Then the **```kmeans_fit()```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
-
-
-#### Format of the Data set:
-One should import the data set in **.csv** format as a DataFrame using pandas. <br>
-Example: 
-``` 
-import pandas as pd
-df = pd.DataFrame()
-df=pd.read_csv("Dataset_name.csv")
-```
-Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 
 #### Out of the package:
 ```Note:``` This part is not included in tha package. So, if needed the user has to import the required libraries and these does not come with the package.<br>
