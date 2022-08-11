@@ -40,9 +40,6 @@ Then the **```kmeans_assignment()```** method has to be called for the allocatio
 
 #### 4. Recomputing the centroids of newly formed clusters:
 Centroid re-calculation is done using **```recalc_centroids()```** method that takes the centroids previously assigned to the data points and the data set as input. It finds the average of all the data points of each centroid and moves the centroid to that average. This method returns re-calculated/new centroids. 
-<p align="center">
-  <img width="400" height="210" src="http://bush-dev.com/number5/2021/06/image-13.png">
-</p>
 
 ## Getting Started
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
@@ -59,7 +56,7 @@ For example inside the package **"KMeans_Package"**, module **"kmeans_module"**,
 can be written as: ```from KMeans_Package.kmeans_module.K_means import inertia```.
 
 ## Imports
-In order to use the package, the following libraries must be imported. <br>
+In order to use the package, the following libraries must be **installed** and imported. <br>
 ```
 import numpy as np
 import pandas as pd 
@@ -84,11 +81,16 @@ df=pd.read_csv("Dataset_name.csv")
 Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 
 #### Out of the package:
-```Note:``` This part is not included in tha package. So, if need the user has to import the required libraries and these does not cme with the package.<br>
+```Note:``` This part is not included in tha package. So, if needed the user has to import the required libraries and these does not come with the package.<br>
 
-After the execution is done, one can use some visualization tools like **Matplotlib** to plot a graph that contains all the clusters assigned to 
+After the execution is done, one can use some visualization tools like **Matplotlib** to plot a graph that contains all the clusters assigned to each data points with their centroids.<br>
+Example plot:
+<p align="center">
+  <img width="400" height="310" src="https://www.jcchouinard.com/kmeans/">
+</p>
 
-## Authors
+Completed!!
+
 
 
 
