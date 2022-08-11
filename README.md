@@ -83,8 +83,12 @@ df=pd.read_csv("Dataset_name.csv")
 ```
 Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 
+#### Out of the package:
+```Note:``` This part is not included in tha package. So, if need the user has to import the required libraries and these does not cme with the package.<br>
 
+After the execution is done, one can use some visualization tools like **Matplotlib** to plot a graph that contains all the clusters assigned to 
 
+## Authors
 
 
 
