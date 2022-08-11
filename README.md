@@ -44,7 +44,7 @@ Centroid re-calculation is done using **```recalc_centroids()```** method that t
 
 ## Getting Started
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
-To import the package, you can use: ```import KMeans_Package```<br><br>
+To import the package, you can use: ```import KMeans_Package```.<br><br> 
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
 There are different syntax for importing and using the package's class, some of them include, <br><br>
@@ -56,6 +56,15 @@ To import the method directly, ```from package_name.module_name.class_name impor
 For example inside the package **"KMeans_Package"**, module **"kmeans_module"**, class **"K_means"**, you want to import a method **inertia()**<br>
 can be written as: ```from KMeans_Package.kmeans_module.K_means import inertia```.
 
+### Format of the Data set
+One should import the data set in **.csv** format as a DataFrame using pandas. <br>
+Example: 
+``` 
+import pandas as pd
+df = pd.DataFrame()
+df=pd.read_csv("Dataset_name.csv")
+```
+Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 
 ## Imports
 In order to use the package, the following libraries must be imported. <br>
