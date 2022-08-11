@@ -42,7 +42,7 @@ Then the **```kmeans_assignment()```** method has to be called for the allocatio
 Centroid re-calculation is done using **```recalc_centroids()```** method that takes the centroids previously assigned to the data points and the data set as input. It finds the average of all the data points of each centroid and moves the centroid to that average. This method returns re-calculated/new centroids. 
 
 ## Getting Started
-#### Format of the Data set:
+### Format of the Data set:
 For using the package, one should import the data set in **.csv** format as a DataFrame using pandas. <br>
 Example: 
 ``` 
@@ -51,7 +51,7 @@ df = pd.DataFrame()
 df=pd.read_csv("Dataset_name.csv")
 ```
 Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.<br><br>
-#### Using the package:
+### Using the package:
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
 To import the package, you can use: ```import KMeans_Package```.<br><br> 
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
@@ -65,8 +65,15 @@ To import the method directly, ```from package_name.module_name.class_name impor
 For example inside the package **"KMeans_Package"**, module **"kmeans_module"**, class **"K_means"**, you want to import a method **inertia()**<br>
 can be written as: ```from KMeans_Package.kmeans_module.K_means import inertia```.
 
-## Imports
-In order to use the package, the following libraries must be **installed** and imported. <br>
+## Installation and Imports
+In order to use the package, the following libraries must be **installed** and imported. <br><br>
+### Installation:
+Can find the syntax for installing the libraries in the documentations or the syntax is give below:
+1. [numpy](https://pypi.org/project/numpy/) or ```pip install numpy```
+2. [pandas](https://pypi.org/project/pandas/) or ```pip install pandas```
+3. [kneed](https://pypi.org/project/kneed/) or ```pip install kneed```
+
+### Importing:
 ```
 import numpy as np
 import pandas as pd 
@@ -79,7 +86,7 @@ from kneed import KneeLocator
 3. Call the **```inertia()```** method, which calculates the optimal number of clusters and returns the value.
 4. Then the **```kmeans_fit()```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
 
-#### Out of the package:
+### Out of the package:
 ```Note:``` This part is not included in tha package. So, if needed the user has to import the required libraries and these does not come with the package.<br>
 
 After the execution is done, one can use some visualization tools like **Matplotlib** to plot a graph that contains all the clusters assigned to each data points with their centroids.<br>
