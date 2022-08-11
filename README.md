@@ -44,6 +44,7 @@ Centroid re-calculation is done using **```recalc_centroids()```** method that t
 
 ## Getting Started
 The package that implements Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
+To import the package you can use: ```import KMeans_Package```<br><br>
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"** which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
 There are different syntax for importing and using the package's class, some of them include,<br><br>
@@ -64,8 +65,11 @@ import pandas as pd
 from kneed import KneeLocator
 ```
 
-
-
+## Execution
+1. Import the package **"KMeans_Package"** using the syntax given above.
+2. Import all the required lipraries as mentiones.
+3. Call the **```inertia()```** method that takes which calculates the optimal number of clusters and returns the value.
+4. Then the **```kmeans_fit()```** method should be called which takes the values of optimal number of clusters returned by inertia() method as inpot ans returns a list of all the clusters assigned to each data point as the final output.
 
 
 
