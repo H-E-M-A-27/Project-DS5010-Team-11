@@ -40,7 +40,9 @@ Then the **```kmeans_assignment()```** method has to be called for the allocatio
 
 #### 4. Recomputing the centroids of newly formed clusters:
 Centroid re-calculation is done using **```recalc_centroids()```** method that takes the centroids previously assigned to the data points and the data set as input. It finds the average of all the data points of each centroid and moves the centroid to that average. This method returns re-calculated/new centroids. 
-
+<p align="center">
+  <img width="400" height="210" src="http://bush-dev.com/number5/2021/06/image-13.png">
+</p>
 
 ## Getting Started
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
@@ -48,23 +50,13 @@ To import the package, you can use: ```import KMeans_Package```.<br><br>
 It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
 There are different syntax for importing and using the package's class, some of them include, <br><br>
-``` from package_name.module_name import class_name ``` <br>or<br> ``` import package_name.module_name.class_name```<br>
+``` from package_name.module_name import class_name ``` <br> or<br> ``` import package_name.module_name.class_name```<br>
 
-Now form the class if one wants implement the class's method, ``` class_name.method_name``` <br>, or<br>
+Now form the class if one wants implement the class's method, ``` class_name.method_name``` <br> or<br>
 To import the method directly, ```from package_name.module_name.class_name import method_name```
 <br><br>
 For example inside the package **"KMeans_Package"**, module **"kmeans_module"**, class **"K_means"**, you want to import a method **inertia()**<br>
 can be written as: ```from KMeans_Package.kmeans_module.K_means import inertia```.
-
-### Format of the Data set
-One should import the data set in **.csv** format as a DataFrame using pandas. <br>
-Example: 
-``` 
-import pandas as pd
-df = pd.DataFrame()
-df=pd.read_csv("Dataset_name.csv")
-```
-Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
 
 ## Imports
 In order to use the package, the following libraries must be imported. <br>
@@ -79,6 +71,18 @@ from kneed import KneeLocator
 2. Import all the required libraries as mentioned.
 3. Call the **```inertia()```** method, which calculates the optimal number of clusters and returns the value.
 4. Then the **```kmeans_fit()```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
+
+
+#### Format of the Data set:
+One should import the data set in **.csv** format as a DataFrame using pandas. <br>
+Example: 
+``` 
+import pandas as pd
+df = pd.DataFrame()
+df=pd.read_csv("Dataset_name.csv")
+```
+Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.
+
 
 
 
