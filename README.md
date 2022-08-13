@@ -114,7 +114,7 @@ Example plot:
 
 ## Test
 There is a package inside the **KMeans_Package** package know as **"Test"**. This package's module named **"test"** has the sample unitists for testing the code.
-For verifying if the methods are properly working, a simple **"assert"** keyword is used which lets you test if a condition in the code returns True, if not, the program will raise an AssertionError.
+For verifying if the methods are properly working, a simple **"assert"** keyword is used which lets you test if a condition in the code returns True, if not, the program will raise an AssertionError.<br>
 Sample:
 ```
 x = "Project"
