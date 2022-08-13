@@ -86,6 +86,19 @@ from kneed import KneeLocator
 3. Call the **```k=inertia()```** method, which calculates the optimal number of clusters and returns the value.
 4. Then the **```kmeans_fit(k)```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
 
+Sample code for package usage:
+from KMeans_Package.kmeans_module import K_means
+import numpy as np
+import pandas as pd 
+from kneed import KneeLocator
+
+df=pd.read_csv("Dataset_name.csv")
+classinstance=K_means(df)
+classinstance.kmeans_fit(4) #if the number of clusters is 4
+ 
+k=classinstance.interia()
+classinstance.kmeans_fit(k)
+
 ### Out of the package:
 ```Note:``` This part is not included in tha package. So, if needed the user has to import the required libraries and these does not come with the package.<br>
 
