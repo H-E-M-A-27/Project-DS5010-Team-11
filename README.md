@@ -39,7 +39,7 @@ where,<br>
 Then the **```kmeans_assignment()```** method has to be called for the allocation of each data point to its nearest centroid based on the distances and returns a list of each data point's closest centroid.
 
 #### 4. Recomputing the centroids of newly formed clusters:
-Centroid re-calculation is done by finding the average of all the data points of each centroid and moves the centroid to that average. 
+Centroid re-calculation is done by finding the average of all the data points of each centroid and moving the centroid to that average. 
 
 ## Getting Started
 ### Format of the Data set:
