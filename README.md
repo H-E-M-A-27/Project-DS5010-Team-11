@@ -83,8 +83,8 @@ from kneed import KneeLocator
 ## Execution
 1. Import the package **"KMeans_Package"** using the syntax given above.
 2. Import all the required libraries as mentioned.
-3. Call the **```inertia()```** method, which calculates the optimal number of clusters and returns the value.
-4. Then the **```kmeans_fit()```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
+3. Call the **```k=inertia()```** method, which calculates the optimal number of clusters and returns the value.
+4. Then the **```kmeans_fit(k)```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
 
 ### Out of the package:
 ```Note:``` This part is not included in tha package. So, if needed the user has to import the required libraries and these does not come with the package.<br>
