@@ -125,7 +125,7 @@ assert x == "Project"
 #if condition returns False, AssertionError is raised:
 assert x == "Data"
 ```
-We have considered some synthetic datasets as examples to test the methods. One can use their own sample data for testing.<br><br>
+We have considered some synthetic datasets as examples to test the methods. One can use their own sample data for testing.<br><br><br>
 Completed!!
 
 
