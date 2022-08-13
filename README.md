@@ -23,7 +23,7 @@ One popular clustering technique that divides the unlabeled dataset into many cl
 In the package, one can use the user-defined method called **```inertia()```** to know the optimal number of clusters. The process is simple, you just have to call the **inertia()** method, and it returns the optimal *k* value. There is a range of *k* values given by default inside the method, which makes the method fit the data points until it gets the optimal *k* clusters. 
 
 #### 2. Selecting some random "k" data points as centroids:
-To select the random *k* data points, there is a method known as **```centroids_of_first_iteration()```**. This method initializes the *k* number of centroids. Since it is the first iteration, a sequence of *k* numbers is randomly selected from the dataset. These chosen data points are the centroids for the first iteration.
+To select the random *k* data points, there is a method known as **```centroidsoffirstiteration()```**. This method initializes the *k* number of centroids. Since it is the first iteration, a sequence of *k* numbers is randomly selected from the dataset. These chosen data points are the centroids for the first iteration.
 
 #### 3. Assigning the data points to the closest cluster centroid:
 This step can be done by calling the method **```euclidean_distance()```** which returns the distance between the centroids and the data points using the euclidean formula.
