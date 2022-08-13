@@ -83,7 +83,7 @@ from kneed import KneeLocator
 ## Execution
 1. Import the package **"KMeans_Package"** using the syntax given above.
 2. Import all the required libraries as mentioned.
-3. Import your dataset. Make sure that the dataset you use is 2-Dimensional i.e. it only has two features/columns. Since the method inertia() can only function with 2-D dataset.
+3. Import your dataset. Make sure that the dataset you use can be represented in 2-Dimensional space i.e. it only has two features/columns. Since the method inertia() can only function with 2-D dataset.
 4. Call the **```k=inertia()```** method, which calculates the optimal number of clusters and returns the value.
 5. Then the **```kmeans_fit(k)```** method should be called, which takes the value of the optimal number of clusters returned by the inertia() method as import and returns a list of all the clusters assigned to each data point as the final output.
 
