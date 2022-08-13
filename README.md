@@ -54,7 +54,7 @@ Where, "df" is the alias of Pandas DataFrame and "pd" is alias of pandas.<br><br
 ### Using the package:
 The package that implements the Kmeans clustering algorithm in this repository is **"KMeans_Package"**. <br>
 To import the package, you can use: ```import KMeans_Package```.<br><br> 
-It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a directory called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
+It has modules **"\_\_init\_\_"** and **"kmeans_module"**. The package also has a package called the **"Test"**, which consists of the unit tests. The **"kmeans_module"** module has a class named **"K_means"** that contains all the methods. <br>
 
 Few common syntax for importing and using the package's class, <br><br>
 ``` from package_name.module_name import class_name ``` <br> or<br> ``` import package_name.module_name.class_name```<br>
