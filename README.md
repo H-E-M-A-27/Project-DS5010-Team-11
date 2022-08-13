@@ -112,6 +112,20 @@ Example plot:
   <img width="400" height="310" src="https://www.jcchouinard.com/wp-content/uploads/2021/10/image-54.png">
 </p>
 
+## Test
+There is a package inside the **KMeans_Package** package know as **"Test"**. This package's module named **"test"** has the sample unitists for testing the code.
+For verifying if the methods are properly working, a simple **"assert"** keyword is used which lets you test if a condition in the code returns True, if not, the program will raise an AssertionError.
+Sample:
+```
+x = "Project"
+
+#if condition returns True, then nothing happens:
+assert x == "Project"
+
+#if condition returns False, AssertionError is raised:
+assert x == "Data"
+```
+We have considered some synthetic datasets as examples to test the methods. One can use their own sample data for testing.<br><br>
 Completed!!
 
 
