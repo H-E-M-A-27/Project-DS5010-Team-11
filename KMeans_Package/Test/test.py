@@ -4,7 +4,7 @@ import numpy as np
 from kneed import KneeLocator
 
 
-##example data 1
+#example data 1
 num1 = [[1,1],[2,1],[7,1],[6,1]]
 c1=[[1,1],[7,1]]
 df1 = pd.DataFrame(num1, columns = ['x', 'y'])
@@ -34,7 +34,7 @@ center2= pd.DataFrame(c2, columns = ['x', 'y'])
 
 #optimal clustering of the datapoints is [1, 1, 0, 0, 2, 2, 2, 1, 0, 2, 0]
 
-##example data 3
+#example data 3
 num3 = [[3,2]]
 c3=[[9,10]]
 df3 = pd.DataFrame(num3, columns = ['x', 'y'])
