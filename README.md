@@ -7,7 +7,7 @@
 A lot of unlabeled data is being produced nowadays that must be classified. This is where clustering comes into the picture. It is a process of finding subgroups in the data that have very similar data points within the same subgroup (cluster) and very distinct data points within different clusters. For instance, if we went to a grocery store to buy some veggies, we would see a variety of vegetables. One thing we will notice is that the veggies will be organized according to their type. Just as all the carrots will be stored in one location, so will the many varieties of potatoes be. If we look closely, we will see that each vegetable is retained within a group that corresponds to its kind, creating the clusters. This is what clustering means. 
 
 <p align="center">
-  <img width="380" height="210" src="https://559987-1802630-raikfcquaxqncofqfm.stackpathdns.com/assets/images/machine-learing/clustering/clustering01.png">
+  <img width="380" height="210" src="https://static.javatpoint.com/tutorial/machine-learning/images/clustering-in-machine-learning.png">
 </p>
 
 ### KMeans Clustering: 
